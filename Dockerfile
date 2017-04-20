@@ -20,7 +20,7 @@ LABEL org.label-schema.vendor="Basi" \
     org.label-schema.docker.params="DOCKER_API_VERSION=Docker API version to use" \
     org.label-schema.build-date=$build_date
 
-ENV "DOCKER_API_VERSION=v1.12"
+ENV "DOCKER_API_VERSION=v1.29"
 
 RUN apk add --no-cache curl
 
